@@ -31,4 +31,8 @@ function appendKitten(name) {
   return kittensAppended
 }
 
-function 
+function prependKitten(name) {
+  //prepends a kitten to the kittens array and returns a new array, leaving the kittens array unchanged
+  var kittensPrepended = [name,...kittens]
+  return kittensPrepended
+}
