@@ -3,3 +3,4 @@
 //Mutators: pop, push, shift, unshift
 //Non-Mutators: slice, concat, splice
 
+new array = ["Milo","Otis","Garfield"]
