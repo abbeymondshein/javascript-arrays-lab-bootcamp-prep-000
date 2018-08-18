@@ -10,4 +10,8 @@ function destructivelyAppendKitten(name){
   kittens.push(name)
 }
 
-function 
+function destructivelyPrependKitten(name) {
+//prepends a kitten to the beginningof the kittens array:
+  kittens.unshift(name)
+}
+
